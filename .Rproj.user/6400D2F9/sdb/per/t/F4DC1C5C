@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "\n# Analyzing police stun gun deployments in Connecticut\n\nThis repository contains source data and analysis code for the Trend CT story:\n\n* [Minorities more likely to be shot with stun guns in Connecticut](http://trendct.org/2016/06/30/minorities-more-likely-to-be-shot-with-stun-guns-in-connecticut/)\n* [Who, where and how often people are stunned by police in Connecticut](http://trendct.org/2016/07/19/who-where-and-how-often-people-are-stunned-by-police-in-connecticut/)\n\n# Walkthroughs\n\n* Data analysis of police stun gun use in CT - [[RMarkdown](https://github.com/trendct/data/blob/master/2016/06/stun-guns/index.Rmd)] [[HTML](http://trendct.github.io/data/2016/06/stun-guns/)]\n\n### The Data\n\n* 2015 Reported Taser Data - [CCSU](https://github.com/trendct/data/blob/master/2016/06/stun-guns/data/2015%20Reported%20Taser%20Data.xlsx) \n* deployed - stun deployment frequency by race - [CSV](https://github.com/trendct/data/blob/master/2016/06/stun-guns/data/deployed.csv)\n* weapons wielded by suspect- [CSV](https://github.com/trendct/data/blob/master/2016/06/stun-guns/data/weapons.csv)\n\n### What's in this repo\n\n* `data` [folder]((https://github.com/trendct/data/tree/master/2016/06/stun-guns/data)) with raw data, modified data.\n* `analysis.R` is an R script analyzing the datasets.\n* `.png` files of various chart outputs\n\n*Bonus:* As an interesting exercise, my colleague Jake Kara, also worked did a data analysis for story but [with Python](https://github.com/trendct/data/tree/master/2016/06/taser-incidents).\n\nWe livestreamed our process. Jake with Python [[video](https://www.livecoding.tv/jakekara/videos/aEEG3-ct-stun-gun-analysis-3)]. Me with R (Sorry, I didn't realize I was on mute for the first part) [[video](https://www.livecoding.tv/abtran/videos/BMMN3-analyzing-stun-gun-use-data-with-r/)].\n\n----\n\n### Philosophy\n\nWe believe in open data. Our scripts may be too technical for the average reader, but we make it accessible because we believe it is important to be as transparent as possible about our methodology so our work can be checked or expanded upon. \n\nCheck out the reproducible scripts and data behind many of our other stories in our [central repo](https://github.com/trendct/data)\n\nFollow us out on Twitter [@TrendCT](http://www.trendct.org) and on [Facebook/TrendCT](https://www.facebook.com/trendct/).\n\n### Usage\n\nIf you use our data or methodology, please give us a shout out in your story. It'd also be nice if you gave me a heads up: [@abtran](http://www.twitter.com/abtran) or abtran@trendct.org.\n",
+    "created" : 1468933986457.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1047201559",
+    "id" : "F4DC1C5C",
+    "lastKnownWriteTime" : 1468935547,
+    "last_content_update" : 1468935547297,
+    "path" : "~/Documents/Github/data/2016/06/stun-guns/readme.MD",
+    "project_path" : "readme.MD",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}
